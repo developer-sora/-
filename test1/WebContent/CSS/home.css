@@ -1,0 +1,62 @@
+@charset "EUC-KR";
+
+* {
+	box-sizing: border-box;
+	font-family: 'DungGeunMo';
+}
+
+@font-face {
+	font-family: 'DungGeunMo';
+	src:
+		url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/DungGeunMo.woff')
+		format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+
+body {
+	height:90vh;
+	background-image: url('back.png');
+	background-repeat: no-repeat;
+	background-color: rgb(255, 204, 0);
+	background-size:cover;
+	background-position: center
+}
+
+.hometitle{
+	width:400px;
+	margin-top: 50px;
+	margin-left:70%;
+}
+a {
+	text-decoration: none;
+	outline: none;
+}
+
+.menu {
+	margin-left: auto;
+}
+
+.menu_ul {
+	list-style: none;
+	padding-left: 0px;
+}
+
+
+li {
+	padding: 27px;
+	text-align:right;
+}
+
+
+
+a{
+	color:black;
+	font-size: 43px;
+	border: 10px solid #f94339;
+	border-radius: 25px;
+	background-color:#f94339;
+}
+
